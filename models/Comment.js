@@ -1,8 +1,11 @@
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../connection/database');
+const sequelize = require('../config/connection');
+
 
 class Comment extends Model {}
 
+
+//Model attributes are defined
 Comment.init(
   {
     id: {

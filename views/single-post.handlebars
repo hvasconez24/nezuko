@@ -1,0 +1,21 @@
+<div class="center-post">
+  {{> post-info post}}
+  <br/>
+  {{#if loggedIn}}
+  <form class="comment-form w-100">
+    <div>
+      <textarea name="comment-body"></textarea>
+    </div>
+
+    <div>
+      <button class="btn btn-success" type="submit">Add comment <i class="fas fa-plus"></i></button>
+    </div>
+  </form>
+  {{/if}}
+
+  {{> comments post.comments}}
+
+  {{#if loggedIn}}
+  <script src="/javascript/comment.js"></script>
+  {{/if}}
+</div>

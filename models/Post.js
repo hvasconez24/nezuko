@@ -1,6 +1,9 @@
+//imports*/
 const { Model, DataTypes } = require('sequelize');
-const sequelize = require('../connection/database');
+const sequelize = require('../config/connection');
 
+
+// CREATE Post model
 class Post extends Model {}
 
 Post.init(

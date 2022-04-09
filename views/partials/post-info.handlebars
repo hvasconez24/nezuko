@@ -1,0 +1,31 @@
+<div class="card rounded">
+  <div class="padd">
+    <div class="post-meta">
+      <span class="date text-muted">Post</span> 
+      <span class="mx-1 text-muted">•</span> 
+      <span class="text-muted">{{format_date created_at}}</span>
+    </div>
+    <div>
+      <a class="font-title" href="/post/{{id}}">{{title}}</a>
+      <p >{{post_text}}</p>
+    </div>
+    
+    <div class="meta">
+      <a class="descrip" href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+    </div>
+    <span class="author mb-3 d-block">By {{user.username}} </span>
+  </div>
+</div>
+
+{{!-- <div class="post-entry-1 border-bottom">
+    <div class="post-meta">
+      <span class="date">Post</span> 
+      <span class="mx-1">•</span> 
+      <span>Jul 5th '22</span>
+    </div>
+    <h2 class="mb-2">
+      <a href="#">How to Avoid Distraction and Stay Focused During Video Calls?</a>
+    </h2> 
+    <span class="author mb-3 d-block">Jenny Wilson</span>
+</div> --}}
+
