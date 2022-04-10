@@ -10,6 +10,13 @@ This project uses the Model-View-Controller (MVC) paradigm to create a blog-styl
 - Sequelize
 - express-session
 - Connect Session Store using Sequelize
+# Preview
+![alt tag](https://github.com/hvasconez24/nezuko/blob/master/images/Picture1.png)
+![alt tag](https://github.com/hvasconez24/nezuko/blob/master/images/Picture2.png)
+![alt tag](https://github.com/hvasconez24/nezuko/blob/master/images/Picture3.png)
+![alt tag](https://github.com/hvasconez24/nezuko/blob/master/images/Picture4.png)
+![alt tag](https://github.com/hvasconez24/nezuko/blob/master/images/Picture5.png)
+
 # Usage
 The application is deployed on Heroku at https://polar-headland-41865.herokuapp.com/
 
